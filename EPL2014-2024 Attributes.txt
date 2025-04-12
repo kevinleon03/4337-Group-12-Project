@@ -1,0 +1,22 @@
+Date
+HomeTeam
+AwayTeam
+FTHG - Full Time Home Goals
+FTAG - Full Time Away Goals
+FTR - Full Time Result (H = Home Win, A = Away Win, D = Draw)
+HTHG - Half Time Home Goals
+HTAG - Half Time Away Goals
+HTR - Half Time Result (H = Home Win, A = Away Win, D = Draw)x`
+Referee
+HS - Home Shots
+AS - Away Shots
+HST - Home Shots on Target
+AST - Away Shots on Target
+HF - Home Fouls
+AF - Away Fouls
+HC - Home Corners
+AC - Away Corners
+HY - Home Yellow Cards
+AY - Away Yellow Cards
+HR - Home Red Cards
+AR - Away Red Cards
