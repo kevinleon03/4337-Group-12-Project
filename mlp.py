@@ -47,13 +47,13 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 # Create the model and fit it
 mlp_model = MLPClassifier(
-    hidden_layer_sizes=(32, 16),   # Two hidden layers: 32 neurons, then 16 neurons
-    activation='relu',             # Good general-purpose activation
-    solver='adam',                 # Optimizer well-suited for noisy data
-    max_iter=500,                  # Enough iterations to converge
+    hidden_layer_sizes=(32, 16),   
+    activation='relu',            
+    solver='adam',               
+    max_iter=500,                 
     random_state=1,
-    early_stopping=True,           # Stop if validation loss stops improving
-    validation_fraction=0.1,       # 10% of training set for validation
+    early_stopping=True,           
+    validation_fraction=0.1,      
 )
 mlp_model.fit(X_train, y_train)
 
